@@ -1,9 +1,9 @@
-package ui.steps;
+package ui.steps.DataTableTransformer;
 
+import ui.Models.RegistrationData;
 import ui.Models.CheckingAccountCard;
 import ui.Models.CheckingTransactionMenu;
 import ui.Models.NewCheckingData;
-import ui.Models.RegistrationData;
 import io.cucumber.java.DataTableType;
 
 import java.util.Map;

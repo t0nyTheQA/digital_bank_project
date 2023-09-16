@@ -1,4 +1,4 @@
-package ui.steps;
+package ui.steps.Hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
