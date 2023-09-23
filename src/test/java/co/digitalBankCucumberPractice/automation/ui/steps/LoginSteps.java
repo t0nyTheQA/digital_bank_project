@@ -2,6 +2,7 @@ package co.digitalBankCucumberPractice.automation.ui.steps;
 
 import co.digitalBankCucumberPractice.automation.ui.Pages.LoginPage;
 import co.digitalBankCucumberPractice.automation.ui.Utilities.Driver;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.cucumber.java.en.Given;
@@ -27,6 +28,7 @@ public class LoginSteps {
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         assertEquals("https://dbank-qa.wedevx.co/bank/login", driver.getCurrentUrl());
+
     }
 
 

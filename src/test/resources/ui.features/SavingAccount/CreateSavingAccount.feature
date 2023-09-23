@@ -8,6 +8,6 @@ Feature: Create a new savings account
       | Savings     | Individual | Steves Savings1 | 10000.00       |
     Then user should see green "Successfully created new Savings account named Steves Savings1" alert
     And user should see the new checking account card with initial input data and
-      | accountNumber | interestRate |
-      | 486131720     | 1.85         |
+      | accountNumber | interestRate | balance  | accountType | ownership  | accountName     |
+      | 486131720     | 1.85         | 10000.00 | Savings     | Individual | Steves Savings1 |
 

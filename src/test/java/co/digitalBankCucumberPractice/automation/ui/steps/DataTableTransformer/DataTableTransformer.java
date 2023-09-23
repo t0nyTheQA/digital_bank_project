@@ -2,6 +2,7 @@ package co.digitalBankCucumberPractice.automation.ui.steps.DataTableTransformer;
 
 import co.digitalBankCucumberPractice.automation.ui.Models.*;
 import io.cucumber.java.DataTableType;
+import io.cucumber.java.it.Data;
 
 import java.util.Map;
 
@@ -75,5 +76,18 @@ public class DataTableTransformer {
         double initialDeposit = Double.parseDouble(entry.get("initialDeposit"));
 
         return new NewSavingAccountData(accountType, ownership, accountName, initialDeposit);
+    }
+
+    @DataTableType
+    public SavingAccountCard savingAccountCard(Map<String, String> entry){
+
+         String accountName = entry.get("accountName");
+         String accountType = entry.get("accountType");
+         String ownership = entry.get("ownership");
+         String accountNumber= entry.get("accountNumber");
+         double interestRate =Double.parseDouble(entry.get("interestRate"));
+         double balance = Double.parseDouble(entry.get("balance"));
+
+        return new SavingAccountCard(accountName,accountType,ownership, accountNumber, interestRate, balance);
     }
 }
