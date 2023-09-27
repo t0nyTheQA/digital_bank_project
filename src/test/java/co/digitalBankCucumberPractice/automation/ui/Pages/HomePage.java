@@ -84,4 +84,99 @@ public class HomePage {
     @FindBy(xpath = "//div[@class ='user-menu dropdown-menu show']/a[3]")
     WebElement logoutButton;
 
+
+//GETTERS
+
+    public WebElement getHomeMenuButton() {
+        return homeMenuButton;
+    }
+
+    public WebElement getSideMenuToggle() {
+        return sideMenuToggle;
+    }
+
+    public WebElement getCheckingMenuButton() {
+        return checkingMenuButton;
+    }
+
+    public WebElement getViewCheckingButton() {
+        return viewCheckingButton;
+    }
+
+    public WebElement getNewCheckingButton() {
+        return newCheckingButton;
+    }
+
+    public WebElement getSavingsMenuButton() {
+        return savingsMenuButton;
+    }
+
+    public WebElement getViewSavingsButton() {
+        return viewSavingsButton;
+    }
+
+    public WebElement getNewSavingsButton() {
+        return newSavingsButton;
+    }
+
+    public WebElement getExternalAccountsButton() {
+        return externalAccountsButton;
+    }
+
+    public WebElement getLinkExternalAccountButton() {
+        return linkExternalAccountButton;
+    }
+
+    public WebElement getViewExternalAccountsButton() {
+        return viewExternalAccountsButton;
+    }
+
+    public WebElement getDepositButton() {
+        return depositButton;
+    }
+
+    public WebElement getWithdrawButton() {
+        return withdrawButton;
+    }
+
+    public WebElement getTransferBetweenAccountButton() {
+        return transferBetweenAccountButton;
+    }
+
+    public WebElement getVisaDirectTransferButton() {
+        return visaDirectTransferButton;
+    }
+
+    public WebElement getSearchAtmButton() {
+        return searchAtmButton;
+    }
+
+    public WebElement getNotificationsButton() {
+        return notificationsButton;
+    }
+
+    public WebElement getMessagesButton() {
+        return messagesButton;
+    }
+
+    public WebElement getWebsiteInfoButton() {
+        return websiteInfoButton;
+    }
+
+    public WebElement getProfileDropDownMenuButton() {
+        return profileDropDownMenuButton;
+    }
+
+    public WebElement getMyProfileSettingsButton() {
+        return myProfileSettingsButton;
+    }
+
+    public WebElement getChangePasswordSettingButton() {
+        return changePasswordSettingButton;
+    }
+
+    public WebElement getLogoutButton() {
+        return logoutButton;
+    }
+
 }

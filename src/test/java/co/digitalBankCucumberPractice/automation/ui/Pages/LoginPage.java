@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 
     private WebDriver driver;
-    public LoginPage(WebDriver driver){
+
+    public LoginPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -40,14 +41,18 @@ public class LoginPage {
 
     //create action methods
 
-    public void login(String username, String password){
+    public void login(String username, String password) {
         usernameTextBox.sendKeys(username);
         passwordTextBox.sendKeys(password);
 
         signInButton.click();
     }
 
-    public void clickToSignUp(){
+    public void navigateToLoginPage() {
+        driver.get("https://dbank-qa.wedevx.co/bank/login");
+    }
+
+    public void clickToSignUp() {
         signUpHereLink.click();
     }
 
