@@ -44,29 +44,7 @@ public class DataTableTransformer {
         return new NewCheckingData(accountName, accountType, ownership, deposit);
     }
 
-    @DataTableType
-    public RegistrationData registrationData(Map<String, String> entry) {
 
-        String title = entry.get("title");
-        String firstName = entry.get("firstName");
-        String lastName = entry.get("lastName");
-        String gender = entry.get("gender");
-        String dateOfBirth = entry.get("dateOfBirth");
-        String ssn = entry.get("ssn");
-        String email = entry.get("email");
-        String password = entry.get("password");
-        String confirmPassword = entry.get("confirmPassword");
-        String address = entry.get("address");
-        String locality = entry.get("locality");
-        String region = entry.get("region");
-        String postalCode = entry.get("postalCode");
-        String country = entry.get("country");
-        String mobilePhone = entry.get("mobilePhone");
-
-        return new RegistrationData(title, firstName, lastName, gender,
-                dateOfBirth, ssn, email, password, confirmPassword,
-                address, locality, region, postalCode, country, mobilePhone);
-    }
     @DataTableType
     public NewSavingAccountData newSavingAccountData(Map<String, String> entry) {
 
