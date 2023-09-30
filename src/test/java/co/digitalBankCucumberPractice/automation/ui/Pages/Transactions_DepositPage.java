@@ -1,24 +1,22 @@
 package co.digitalBankCucumberPractice.automation.ui.Pages;
 
-import co.digitalBankCucumberPractice.automation.ui.Models.CheckingAccountCard;
-import co.digitalBankCucumberPractice.automation.ui.Models.CheckingTransactionMenu;
-import io.cucumber.java.eo.Do;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class Transactions_DepositPage extends HomePage {
+import static co.digitalBankCucumberPractice.automation.ui.Utilities.Driver.getDriver;
 
-    private WebDriver driver;
+public class Transactions_DepositPage extends BaseMenuPage {
+
 
     public Transactions_DepositPage(WebDriver driver) {
         super(driver);
     }
+
 
     @FindBy(id = "selectedAccount")
     WebElement selectAccountForDeposit;
@@ -34,7 +32,6 @@ public class Transactions_DepositPage extends HomePage {
 
     @FindBy(xpath = "//table/tbody/tr")
     WebElement entireTransactionTable;
-
 
 
     public void selectAccount(String account) {
@@ -55,28 +52,28 @@ public class Transactions_DepositPage extends HomePage {
     }
 
     public double getNewestAmountDepositedFromTable() {
-        List<WebElement> transactions = driver.findElements(By.xpath("//table/tbody/tr"));
+        List<WebElement> transactions = getDriver().findElements(By.xpath("//table/tbody/tr"));
         WebElement transaction = transactions.get(1);
 
 
-        double newestDepositAmount = Double.parseDouble(transaction.findElement(By.xpath("/td[4]")).getText());
+        double newestDepositAmount = Double.parseDouble(transaction.findElement(By.xpath("//table/tbody/tr/td[4]")).getText().replace("$",""));
         return newestDepositAmount;
     }
 
     public double getNewBalanceInTransaction() {
-        List<WebElement> transactions = driver.findElements(By.xpath("//table/tbody/tr"));
+        List<WebElement> transactions = getDriver().findElements(By.xpath("//table/tbody/tr"));
         WebElement transaction = transactions.get(1);
 
-        double newBalanceAfterDeposit = Double.parseDouble(transaction.findElement(By.xpath("/td[5]")).getText());
+        double newBalanceAfterDeposit = Double.parseDouble(transaction.findElement(By.xpath("//table/tbody/tr/td[5]")).getText().replace("$",""));
         return newBalanceAfterDeposit;
     }
 
 
     public double getInitialBalanceBeforeDeposit() {
-        List<WebElement> transactions = driver.findElements(By.xpath("//table/tbody/tr"));
-        WebElement transaction = transactions.get(2);
+        WebElement transaction2 = getDriver().findElement(By.xpath("//table/tbody/tr[2]"));
 
-        double initialBalance = Double.parseDouble(transaction.findElement(By.xpath("/td[5]")).getText());
+
+        double initialBalance = Double.parseDouble(transaction2.findElement(By.xpath("//table/tbody/tr[2]/td[5]")).getText().replace("$",""));
         return initialBalance;
     }
 

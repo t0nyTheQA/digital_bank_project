@@ -1,6 +1,5 @@
 package co.digitalBankCucumberPractice.automation.ui.steps;
 
-import co.digitalBankCucumberPractice.automation.ui.Models.NewCheckingData;
 import co.digitalBankCucumberPractice.automation.ui.Models.NewSavingAccountData;
 import co.digitalBankCucumberPractice.automation.ui.Models.SavingAccountCard;
 import co.digitalBankCucumberPractice.automation.ui.Pages.CreateNewSavingsPage;
@@ -10,10 +9,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import java.util.List;
-import java.util.Objects;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

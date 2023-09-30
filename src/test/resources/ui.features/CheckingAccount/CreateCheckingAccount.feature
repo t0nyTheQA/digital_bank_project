@@ -1,8 +1,7 @@
 Feature: Create a new checking account
 
-  Scenario: Create a new standard individual checking account
-    Given User is on dBank main login page "https://dbank-qa.wedevx.co/bank/login"
-    And User enters userName "anton@email.com" and password "Password123"
+  Scenario: Create a checking account
+    Given User is logged in credentials "anton@email.com" and "Password123"
     And creates a new individual checking account with the following data
       | accountName           | accountType       | ownership  | deposit   |
       | Antons First Checking | Standard Checking | Individual | 100000.00 |

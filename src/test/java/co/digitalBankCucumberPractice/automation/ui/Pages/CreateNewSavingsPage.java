@@ -18,12 +18,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
+import static co.digitalBankCucumberPractice.automation.ui.Utilities.Driver.getDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class CreateNewSavingsPage {
+public class CreateNewSavingsPage extends BaseMenuPage {
 
-    private WebDriver driver;
+
+    public CreateNewSavingsPage(WebDriver driver) {
+       super(driver);
+    }
+
+   ;
 
     @FindBy(id = "savings-menu")
     WebElement savingsSideButton;
@@ -59,11 +65,6 @@ public class CreateNewSavingsPage {
     WebElement newSavingAccountConfirmationMessage;
 
 
-    public CreateNewSavingsPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
     //ACTION METHODS
     public void navigateToNewSavingsPage() {
         savingsSideButton.click();
@@ -72,8 +73,7 @@ public class CreateNewSavingsPage {
 
     public void createNewSaving_IndividualAccount(String accountName, String deposit) {
 
-        BrowserHelper.waitUntilClickableAndClickElement(driver, driver.findElement(By.xpath("//input[@id='Savings' and @type='radio']")), 3);
-        BrowserHelper.waitUntilClickableAndClickElement(driver, driver.findElement(By.xpath("//input[@id='Individual']")), 3);
+
         accountNameTextbox.sendKeys(accountName);
         initialDepositTextbox.sendKeys(deposit);
     }
@@ -84,7 +84,7 @@ public class CreateNewSavingsPage {
 
 
     public String getLastMadeSavingsCardText() {
-        List<WebElement> listOfCards = driver.findElements(By.xpath("//div[@id='firstRow']/div"));
+        List<WebElement> listOfCards = getDriver().findElements(By.xpath("//div[@id='firstRow']/div"));
         WebElement lastCard = listOfCards.get(listOfCards.size()-1);
          return lastCard.getText();
     }

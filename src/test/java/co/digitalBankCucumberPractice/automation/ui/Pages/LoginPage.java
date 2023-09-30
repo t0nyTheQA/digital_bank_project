@@ -5,13 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import static co.digitalBankCucumberPractice.automation.ui.Utilities.Driver.getDriver;
 
-    private WebDriver driver;
+public class LoginPage extends BaseMenuPage{
+
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+       super(driver);
     }
 
     @FindBy(xpath = "//img[@src='/bank/images/logo.png']")
@@ -49,7 +49,7 @@ public class LoginPage {
     }
 
     public void navigateToLoginPage() {
-        driver.get("https://dbank-qa.wedevx.co/bank/login");
+        getDriver().get("https://dbank-qa.wedevx.co/bank/login");
     }
 
     public void clickToSignUp() {

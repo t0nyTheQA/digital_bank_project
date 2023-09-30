@@ -90,4 +90,16 @@ public class DataTableTransformer {
 
         return new SavingAccountCard(accountName,accountType,ownership, accountNumber, interestRate, balance);
     }
+
+
+    @DataTableType
+    public WithdrawInputData withdrawInputData(Map<String, String> entry){
+         String accountName = entry.get("accountName");
+         String withdrawAmount = entry.get("withdrawAmount");
+
+        return new WithdrawInputData(accountName, withdrawAmount);
+    }
+
+
+
 }

@@ -1,23 +1,27 @@
 package co.digitalBankCucumberPractice.automation.ui.Pages;
 
+import co.digitalBankCucumberPractice.automation.ui.Utilities.MockData;
+import io.cucumber.java.it.Ma;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class RegistrationPage1 {
+import java.util.List;
+import java.util.Map;
 
-    private WebDriver driver;
+public class RegistrationPage1 extends BaseMenuPage {
 
     public RegistrationPage1(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
-
+    MockData mockData = new MockData();
 
     @FindBy(xpath = "//img[@src ='images/logo.png']")
     WebElement digitalBankRegistrationHomeButton;
+
 
     @FindBy(xpath = "//select[@name='title']")
     WebElement titleSelector;
@@ -56,11 +60,28 @@ public class RegistrationPage1 {
     WebElement nextButton;
 
 
-
     //action methods
-    public void fillOutRegistration(String firstName, String lastName){
+
+    public void fillOutRegistrationPage1(List<Map<String, String>> registrationDataList) {
+        Map<String, String> registerData = registrationDataList.get(0);
+
         Select select = new Select(titleSelector);
+        select.selectByVisibleText(registerData.get("title"));
+        firstNameTextBox.sendKeys(registerData.get("firstName"));
+        lastNameTextBox.sendKeys(registerData.get("lastName"));
 
 
+        switch (registerData.get("gender")) {
+            case "M", "m" -> maleRadioButton.click();
+            case "F", "f" -> femaleRadioButton.click();
+            default -> throw new NoSuchElementException("Invalid gender chosen");
+        }
+
+        DobTextBox.sendKeys(registerData.get("dateOfBirth"));
+        SsnTextBox.sendKeys(mockData.generateRandomSSN());
+        emailAddressTextBox.sendKeys(mockData.generateRandomEmail());
+        passwordTextBox.sendKeys(registerData.get("password"));
+        confirmPasswordTextBox.sendKeys(registerData.get("confirmPassword"));
+        nextButton.click();
     }
 }
