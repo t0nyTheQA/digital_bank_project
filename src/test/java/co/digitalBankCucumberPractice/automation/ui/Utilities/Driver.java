@@ -32,9 +32,10 @@ public class Driver {
             switch (browser.toLowerCase()) {
 
                 case "chrome":
-//                    WebDriverManager.chromedriver().clearDriverCache().setup();
-//                    WebDriverManager.chromedriver().clearResolutionCache().setup();
+                    WebDriverManager.chromedriver().clearDriverCache();
+                    WebDriverManager.chromedriver().clearResolutionCache();
                     WebDriverManager.chromedriver().setup();
+
                     driver = new ChromeDriver();
                     break;
 

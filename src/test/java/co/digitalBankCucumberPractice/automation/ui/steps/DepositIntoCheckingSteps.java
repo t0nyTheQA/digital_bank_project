@@ -14,9 +14,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DepositIntoCheckingSteps {
-
-    LoginPage lp;
-    Transactions_DepositPage depositPage;
+    WebDriver driver = Driver.getDriver();
+    LoginPage lp = new LoginPage(driver);
+    Transactions_DepositPage depositPage = new Transactions_DepositPage(driver);
 
     @Given("User is on the login page")
     public void user_is_on_the_login_page() {

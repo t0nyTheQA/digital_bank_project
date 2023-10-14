@@ -66,6 +66,8 @@ public class CreateSavingAccountSteps {
         String actualAccInterest = fullCardText.substring(fullCardText.indexOf("Interest"), fullCardText.indexOf("Balance")).trim();
         String actualBalance = fullCardText.substring(fullCardText.indexOf("Balance"));
 
+
+
         assertEquals(expectedResult.getAccountName(), actualAccName);
         assertEquals("Account: " + expectedResult.getAccountType(), actualAccType);
         assertEquals("Ownership: " + expectedResult.getOwnership(), actualAccOwner);

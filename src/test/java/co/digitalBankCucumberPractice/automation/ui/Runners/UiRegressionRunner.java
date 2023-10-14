@@ -7,7 +7,7 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("ui.features")
-@ConfigurationParameter(key=GLUE_PROPERTY_NAME, value = "ui.steps")
+@ConfigurationParameter(key=GLUE_PROPERTY_NAME, value = "co/digitalBankCucumberPractice/automation/ui/steps")
 @ExcludeTags("ignore")
 
 public class UiRegressionRunner {

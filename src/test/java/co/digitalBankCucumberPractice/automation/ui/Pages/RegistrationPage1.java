@@ -17,11 +17,16 @@ public class RegistrationPage1 extends BaseMenuPage {
     public RegistrationPage1(WebDriver driver) {
         super(driver);
     }
+
     MockData mockData = new MockData();
 
     @FindBy(xpath = "//img[@src ='images/logo.png']")
     WebElement digitalBankRegistrationHomeButton;
 
+
+    public WebElement getTitleSelector() {
+        return titleSelector;
+    }
 
     @FindBy(xpath = "//select[@name='title']")
     WebElement titleSelector;
@@ -41,7 +46,7 @@ public class RegistrationPage1 extends BaseMenuPage {
     @FindBy(xpath = "//input[@name = 'dob']")
     WebElement DobTextBox;
 
-    @FindBy(xpath = "//input[@name='ssn'")
+    @FindBy(xpath = "//input[@name='ssn']")
     WebElement SsnTextBox;
 
     @FindBy(xpath = "//input [@type='email' and @name ='emailAddress']")
@@ -65,23 +70,74 @@ public class RegistrationPage1 extends BaseMenuPage {
     public void fillOutRegistrationPage1(List<Map<String, String>> registrationDataList) {
         Map<String, String> registerData = registrationDataList.get(0);
 
+
         Select select = new Select(titleSelector);
-        select.selectByVisibleText(registerData.get("title"));
-        firstNameTextBox.sendKeys(registerData.get("firstName"));
-        lastNameTextBox.sendKeys(registerData.get("lastName"));
-
-
-        switch (registerData.get("gender")) {
-            case "M", "m" -> maleRadioButton.click();
-            case "F", "f" -> femaleRadioButton.click();
-            default -> throw new NoSuchElementException("Invalid gender chosen");
+        if (registerData.get("title") != null) {
+            select.selectByVisibleText(registerData.get("title"));
         }
 
-        DobTextBox.sendKeys(registerData.get("dateOfBirth"));
-        SsnTextBox.sendKeys(mockData.generateRandomSSN());
-        emailAddressTextBox.sendKeys(mockData.generateRandomEmail());
-        passwordTextBox.sendKeys(registerData.get("password"));
-        confirmPasswordTextBox.sendKeys(registerData.get("confirmPassword"));
+        if (registerData.get("firstName") != null) {
+            firstNameTextBox.sendKeys(registerData.get("firstName"));
+        }
+        if (registerData.get("lastName") != null) {
+            lastNameTextBox.sendKeys(registerData.get("lastName"));
+        }
+        if (registerData.get("gender") != null) {
+            switch (registerData.get("gender")) {
+                case "M", "m" -> maleRadioButton.click();
+                case "F", "f" -> femaleRadioButton.click();
+                default -> throw new NoSuchElementException("Invalid gender chosen");
+            }
+        }
+        if (registerData.get("dateOfBirth") != null) {
+            DobTextBox.sendKeys(registerData.get("dateOfBirth"));
+        }
+
+        if (registerData.get("ssn") != null) {
+//            if (registerData.get("ssn").equalsIgnoreCase("mock")) {
+//                SsnTextBox.sendKeys(mockData.generateRandomSSN());
+//            }else if(!registerData.get("ssn").equalsIgnoreCase("mock")){
+//                SsnTextBox.sendKeys(registerData.get("ssn"));
+//            }
+            SsnTextBox.sendKeys(registerData.get("ssn"));
+        }
+        if (registerData.get("email") != null) {
+            emailAddressTextBox.sendKeys(registerData.get("email"));
+        }
+
+        if (registerData.get("password") != null) {
+            passwordTextBox.sendKeys(registerData.get("password"));
+        }
+
+        if (registerData.get("confirmPassword") != null) {
+            confirmPasswordTextBox.sendKeys(registerData.get("confirmPassword"));
+        }
         nextButton.click();
+    }
+
+
+    public String getRequiredFieldErrorMessage(String fieldName) {
+        switch (fieldName.toLowerCase()) {
+            case "title":
+                return titleSelector.getAttribute("validationMessage");
+            case "firstname":
+                return firstNameTextBox.getAttribute("validationMessage");
+            case "lastname":
+                return lastNameTextBox.getAttribute("validationMessage");
+            case "gender":
+                return maleRadioButton.getAttribute("validationMessage");
+            case "dateofbirth":
+                return DobTextBox.getAttribute("validationMessage");
+            case "ssn":
+                return SsnTextBox.getAttribute("validationMessage");
+            case "email":
+                return emailAddressTextBox.getAttribute("validationMessage");
+            case "password":
+                return passwordTextBox.getAttribute("validationMessage");
+            case "confirmpassword":
+                return confirmPasswordTextBox.getAttribute("validationMessage");
+
+        }
+        return "incorrect page 1";
     }
 }

@@ -13,8 +13,11 @@ public class MockData {
     private FakeValuesService fakeValuesService = new FakeValuesService(new Locale("en-US"), new RandomService());
 
     public String generateRandomEmail() {
-        String email = fakeValuesService.bothify(new Faker().name().fullName() + "####@email.com");
-        return email;
+
+        String firstName =new Faker().name().firstName().toLowerCase();
+        String lastName = new Faker().name().lastName().toLowerCase();
+        String domain = new Faker().internet().domainName().toLowerCase();
+        return firstName + "." + lastName + "@email.com";
     }
 
     public String generateRandomSSN() {
