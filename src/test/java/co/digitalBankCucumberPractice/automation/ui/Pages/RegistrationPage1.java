@@ -1,5 +1,6 @@
 package co.digitalBankCucumberPractice.automation.ui.Pages;
 
+import co.digitalBankCucumberPractice.automation.ui.Utilities.Driver;
 import co.digitalBankCucumberPractice.automation.ui.Utilities.MockData;
 import io.cucumber.java.it.Ma;
 import org.openqa.selenium.NoSuchElementException;
@@ -12,11 +13,14 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 import java.util.Map;
 
+import static co.digitalBankCucumberPractice.automation.ui.Utilities.Driver.getDriver;
+
 public class RegistrationPage1 extends BaseMenuPage {
 
     public RegistrationPage1(WebDriver driver) {
         super(driver);
     }
+
 
     MockData mockData = new MockData();
 
@@ -27,6 +31,7 @@ public class RegistrationPage1 extends BaseMenuPage {
     public WebElement getTitleSelector() {
         return titleSelector;
     }
+
 
     @FindBy(xpath = "//select[@name='title']")
     WebElement titleSelector;
@@ -61,8 +66,10 @@ public class RegistrationPage1 extends BaseMenuPage {
     @FindBy(xpath = "//a[@href='/bank/login']")
     WebElement signInLinkIfAccountExists;
 
+
     @FindBy(xpath = "//button[@type ='submit']")
     WebElement nextButton;
+
 
 
     //action methods
@@ -94,15 +101,15 @@ public class RegistrationPage1 extends BaseMenuPage {
         }
 
         if (registerData.get("ssn") != null) {
-//            if (registerData.get("ssn").equalsIgnoreCase("mock")) {
-//                SsnTextBox.sendKeys(mockData.generateRandomSSN());
-//            }else if(!registerData.get("ssn").equalsIgnoreCase("mock")){
-//                SsnTextBox.sendKeys(registerData.get("ssn"));
-//            }
-            SsnTextBox.sendKeys(registerData.get("ssn"));
+           if (registerData.get("ssn").equalsIgnoreCase("mock")) {
+               SsnTextBox.sendKeys(mockData.generateRandomSSN());
+           }else SsnTextBox.sendKeys(registerData.get("ssn"));
         }
+
         if (registerData.get("email") != null) {
-            emailAddressTextBox.sendKeys(registerData.get("email"));
+            if(registerData.get("email").equalsIgnoreCase("mock")){
+                emailAddressTextBox.sendKeys(mockData.generateRandomEmail());
+            }else emailAddressTextBox.sendKeys(registerData.get("email"));
         }
 
         if (registerData.get("password") != null) {
@@ -117,6 +124,9 @@ public class RegistrationPage1 extends BaseMenuPage {
 
 
     public String getRequiredFieldErrorMessage(String fieldName) {
+        RegistrationPage2 registrationPage2 = new RegistrationPage2(getDriver());
+
+
         switch (fieldName.toLowerCase()) {
             case "title":
                 return titleSelector.getAttribute("validationMessage");
@@ -136,6 +146,7 @@ public class RegistrationPage1 extends BaseMenuPage {
                 return passwordTextBox.getAttribute("validationMessage");
             case "confirmpassword":
                 return confirmPasswordTextBox.getAttribute("validationMessage");
+
 
         }
         return "incorrect page 1";

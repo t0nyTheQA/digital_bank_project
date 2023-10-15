@@ -20,12 +20,52 @@ public class RegistrationPage2 extends BaseMenuPage {
         super(driver);
     }
 
+
+
+
+
     public WebElement getAddressTextBox() {
         return addressTextBox;
     }
 
+    public WebElement getLocalityTextBox() {
+        return localityTextBox;
+    }
+
+    public WebElement getRegionTextBox() {
+        return regionTextBox;
+    }
+
+    public WebElement getPostalCodeTextBox() {
+        return postalCodeTextBox;
+    }
+
+    public WebElement getCountryTextBox() {
+        return countryTextBox;
+    }
+
+    public WebElement getHomePhoneTextBox() {
+        return homePhoneTextBox;
+    }
+
+    public WebElement getMobilePhoneTextBox() {
+        return mobilePhoneTextBox;
+    }
+
+    public WebElement getWorkPhoneTextBox() {
+        return workPhoneTextBox;
+    }
+
+    public WebElement getAgreeToTermsCheckBox() {
+        return agreeToTermsCheckBox;
+    }
+
+    public WebElement getRegisterButton() {
+        return registerButton;
+    }
+
     @FindBy(xpath = "//input[@name= 'address']")
-     WebElement addressTextBox;
+    WebElement addressTextBox;
 
     @FindBy(xpath = "//input[@name= 'locality']")
     WebElement localityTextBox;
@@ -100,7 +140,7 @@ public class RegistrationPage2 extends BaseMenuPage {
 
     public String getRequiredFieldErrorMessage(String fieldName) {
 
-        if (addressTextBox.isDisplayed()) {
+
             switch (fieldName.toLowerCase()) {
                 case "address":
                     return addressTextBox.getAttribute("validationMessage");
@@ -117,8 +157,6 @@ public class RegistrationPage2 extends BaseMenuPage {
                 case "termscheckbox":
                     return agreeToTermsCheckBox.getAttribute("validationMessage");
 
-            }
-            return "Incorrect page 2";
         }
         return null;
     }

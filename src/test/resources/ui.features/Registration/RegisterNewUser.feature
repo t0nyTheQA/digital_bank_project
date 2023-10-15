@@ -1,4 +1,4 @@
-Feature: Ability to Register a User`
+Feature: Ability to Register a User
 
   Background:
 

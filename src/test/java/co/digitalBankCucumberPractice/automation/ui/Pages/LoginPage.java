@@ -1,5 +1,6 @@
 package co.digitalBankCucumberPractice.automation.ui.Pages;
 
+import co.digitalBankCucumberPractice.automation.ui.Utilities.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -49,7 +50,7 @@ public class LoginPage extends BaseMenuPage{
     }
 
     public void navigateToLoginPage() {
-        getDriver().get("https://dbank-qa.wedevx.co/bank/login");
+        getDriver().get(ConfigReader.getPropertiesValue("dBankLoginPageURL"));
     }
 
     public void clickToSignUp() {
