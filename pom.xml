@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -81,38 +81,33 @@
 
 
 
+
     </dependencies>
 
 
-
-
-
 <!--    <build>-->
-<!--        <plugins>-->
-
-
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                <version>3.0.0-M5</version>-->
-<!--            </plugin>-->
-
-
-<!--        </plugins>-->
+<!--    <plugins>-->
+<!--    <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-surefire-plugin</artifactId>-->
+<!--        <version>3.1.2</version>-->
+<!--    </plugin>-->
+<!--    </plugins>-->
 <!--    </build>-->
+
+
+
+
     <build>
-    <plugins>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.1.2</version>
-        <configuration>
-            <includes>
-                <include>UiRegressionRunner.java</include>
-            </includes>
-        </configuration>
-    </plugin>
-    </plugins>
+        <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.1.2</version>
+        </plugin>
+        </plugins>
+
     </build>
 
 </project>
+
