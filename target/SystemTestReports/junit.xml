@@ -1,33 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="175.877" tests="38" skipped="0" failures="37" errors="0">
-<testcase classname="Create a new checking account" name="Create a checking account" time="19.611">
+<testsuite name="Cucumber" time="166.55" tests="38" skipped="0" failures="38" errors="0">
+<testcase classname="Create a new checking account" name="Create a checking account" time="15.689">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checking\-menu&quot;}
+  (Session info: headless chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb75cb6baa917d544067bd03cd75f9a3, findElement {using=id, value=checking-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb75cb6baa917d544067bd03cd75f9a3">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checking\-menu"}
+  (Session info: headless chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb75cb6baa917d544067bd03cd75f9a3, findElement {using=id, value=checking-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb75cb6baa917d544067bd03cd75f9a3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at co.digitalBankCucumberPractice.automation.ui.Pages.CreateNewCheckingPage.createNewCheckingAccount(CreateNewCheckingPage.java:50)
+	at co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.createsANewIndividualCheckingAccountWithTheFollowingData(CreateCheckingAccountSteps.java:38)
+	at ✽.creates a new individual checking account with the following data(classpath:ui.features/CheckingAccount/CreateCheckingAccount.feature:5)
+]]>
+</failure>
 <system-out><![CDATA[
 Given User is logged in credentials "anton@email.com" and "Password123".....passed
-And creates a new individual checking account with the following data.......passed
-Then User should see a green confirmation message saying "Successfully created new Standard Checking account named Antons First Checking".passed
-And User should see the new checking account card...........................passed
-And User should see the following Transaction menu..........................passed
+And creates a new individual checking account with the following data.......failed
+Then User should see a green confirmation message saying "Successfully created new Standard Checking account named Antons First Checking".skipped
+And User should see the new checking account card...........................skipped
+And User should see the following Transaction menu..........................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="I am able to withdraw money from any Account" name="User is able to withdraw money from any account - Example #1.1" time="15.056">
+<testcase classname="I am able to withdraw money from any Account" name="User is able to withdraw money from any account - Example #1.1" time="11.676">
 <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5096ba7d3d6f7e3254e9040583837577, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096ba7d3d6f7e3254e9040583837577">
+Command: [71847f686bcb212101937ff7db0b6421, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53948/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71847f686bcb212101937ff7db0b6421">
 <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#withdraw\-menu\-item"}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5096ba7d3d6f7e3254e9040583837577, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096ba7d3d6f7e3254e9040583837577
+Command: [71847f686bcb212101937ff7db0b6421, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53948/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71847f686bcb212101937ff7db0b6421
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -57,25 +97,25 @@ When user chooses an account and enters a withdraw amount and submits the withdr
 Then user should see the new balance and amount withdrew in the transaction table.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="I am able to withdraw money from any Account" name="User is able to withdraw money from any account - Example #1.2" time="14.596">
+<testcase classname="I am able to withdraw money from any Account" name="User is able to withdraw money from any account - Example #1.2" time="13.622">
 <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ff0edec05da2843afc08e960cf2af45, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ff0edec05da2843afc08e960cf2af45">
+Command: [ac1054e9b23ded8d995e76a46e48da83, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53975/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1054e9b23ded8d995e76a46e48da83">
 <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#withdraw\-menu\-item"}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ff0edec05da2843afc08e960cf2af45, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ff0edec05da2843afc08e960cf2af45
+Command: [ac1054e9b23ded8d995e76a46e48da83, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53975/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1054e9b23ded8d995e76a46e48da83
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -105,25 +145,25 @@ When user chooses an account and enters a withdraw amount and submits the withdr
 Then user should see the new balance and amount withdrew in the transaction table.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="I am able to withdraw money from any Account" name="User is able to withdraw money from any account - Example #1.3" time="15.744">
+<testcase classname="I am able to withdraw money from any Account" name="User is able to withdraw money from any account - Example #1.3" time="15.273">
 <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [214b2ae72f5a17972af3d79ac6d4971b, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 214b2ae72f5a17972af3d79ac6d4971b">
+Command: [e69e58971ff6db0a300c5a305829f7f4, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53996/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e69e58971ff6db0a300c5a305829f7f4">
 <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#withdraw\-menu\-item"}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [214b2ae72f5a17972af3d79ac6d4971b, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 214b2ae72f5a17972af3d79ac6d4971b
+Command: [e69e58971ff6db0a300c5a305829f7f4, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53996/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e69e58971ff6db0a300c5a305829f7f4
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -153,7 +193,7 @@ When user chooses an account and enters a withdraw amount and submits the withdr
 Then user should see the new balance and amount withdrew in the transaction table.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="As a user i can deposit money into my checking account" name="Deposit money into checking account - Example #1.1" time="5.557">
+<testcase classname="As a user i can deposit money into my checking account" name="Deposit money into checking account - Example #1.1" time="8.385">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;https://dbank-qa.wedevx.co/bank/home&gt; but was: &lt;http://antony.mydevx.com/bank/login?error&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <https://dbank-qa.wedevx.co/bank/home> but was: <http://antony.mydevx.com/bank/login?error>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -175,7 +215,7 @@ And User clicks submit......................................................skip
 Then User should see the updated deposit information in the transaction table.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="As a user i can deposit money into my checking account" name="Deposit money into checking account - Example #1.2" time="11.77">
+<testcase classname="As a user i can deposit money into my checking account" name="Deposit money into checking account - Example #1.2" time="10.344">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;https://dbank-qa.wedevx.co/bank/home&gt; but was: &lt;http://antony.mydevx.com/bank/login?error&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <https://dbank-qa.wedevx.co/bank/home> but was: <http://antony.mydevx.com/bank/login?error>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -197,7 +237,7 @@ And User clicks submit......................................................skip
 Then User should see the updated deposit information in the transaction table.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="As a user i can deposit money into my checking account" name="Deposit money into checking account - Example #1.3" time="11.149">
+<testcase classname="As a user i can deposit money into my checking account" name="Deposit money into checking account - Example #1.3" time="11.199">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;https://dbank-qa.wedevx.co/bank/home&gt; but was: &lt;http://antony.mydevx.com/bank/login?error&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <https://dbank-qa.wedevx.co/bank/home> but was: <http://antony.mydevx.com/bank/login?error>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -219,7 +259,7 @@ And User clicks submit......................................................skip
 Then User should see the updated deposit information in the transaction table.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.1" time="6.805">
+<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.1" time="4.879">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -235,7 +275,7 @@ Then User should see the updated deposit information in the transaction table.sk
 Given user entered "notRealName" and "notRealPassword"......................failed
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.2" time="5.1">
+<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.2" time="4.262">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -251,7 +291,7 @@ Given user entered "notRealName" and "notRealPassword"......................fail
 Given user entered "invalid pass" and "anton@email.com".....................failed
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.3" time="4.537">
+<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.3" time="5.058">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -267,7 +307,7 @@ Given user entered "invalid pass" and "anton@email.com".....................fail
 Given user entered "Password123" and "doesNotExistUsername".................failed
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.4" time="4.879">
+<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.4" time="4.379">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -283,7 +323,7 @@ Given user entered "Password123" and "doesNotExistUsername".................fail
 Given user entered "NotBlankPassword" and ""................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.5" time="4.827">
+<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.5" time="4.584">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -299,7 +339,7 @@ Given user entered "NotBlankPassword" and ""................................fail
 Given user entered "" and "notBlankPassword"................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.6" time="2.623">
+<testcase classname="ability to log in" name="Verify user cannot login with &quot;&lt;invalidUsername&gt;&quot; and &quot;&lt;invalidPassword&gt;&quot; - Example #1.6" time="4.351">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -315,19 +355,19 @@ Given user entered "" and "notBlankPassword"................................fail
 Given user entered "" and ""................................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="ability to log in" name="User Verifies user can login with valid credentials - Example #1.1" time="11.459">
+<testcase classname="ability to log in" name="User Verifies user can login with valid credentials - Example #1.1" time="10.741">
 <failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for url to be &quot;http://antony.mydevx.com/bank&quot;. Current url: &quot;http://antony.mydevx.com/bank/login?error&quot; (tried for 3 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53235/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ff37f2b271fe856c463495175a8a678d">
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7caf570e406860711c68837c64f635d">
 <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "http://antony.mydevx.com/bank". Current url: "http://antony.mydevx.com/bank/login?error" (tried for 3 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53235/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ff37f2b271fe856c463495175a8a678d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7caf570e406860711c68837c64f635d
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at co.digitalBankCucumberPractice.automation.ui.steps.LoginSteps.verify_user_successfully_logged_in(LoginSteps.java:51)
@@ -339,7 +379,7 @@ Given user entered valid "anton@email.com" and "Password123"................pass
 Then verify user successfully logged in.....................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="successfully registering a new user, positive case" time="2.47">
+<testcase classname="Ability to Register a User" name="successfully registering a new user, positive case" time="2.632">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -355,7 +395,7 @@ Then user should see a green "Registration Successful. Please Login." alert.skip
 And the following user info should be saved in the database.................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.1" time="2.236">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.1" time="2.162">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -370,7 +410,7 @@ Given user enters the following data........................................skip
 Then The user should see the "title" with the appropriate "Please select an item in the list.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.2" time="1.451">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.2" time="1.442">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -385,7 +425,7 @@ Given user enters the following data........................................skip
 Then The user should see the "firstName" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.3" time="1.454">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.3" time="1.468">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -400,7 +440,7 @@ Given user enters the following data........................................skip
 Then The user should see the "lastName" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.4" time="1.438">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.4" time="1.434">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -415,7 +455,7 @@ Given user enters the following data........................................skip
 Then The user should see the "gender" with the appropriate "Please select one of these options.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.5" time="1.448">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.5" time="1.449">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -430,7 +470,7 @@ Given user enters the following data........................................skip
 Then The user should see the "dateOfBirth" with the appropriate "Please match the requested format.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.6" time="1.447">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.6" time="1.44">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -445,7 +485,7 @@ Given user enters the following data........................................skip
 Then The user should see the "dateOfBirth" with the appropriate "Please match the requested format.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.7" time="1.492">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.7" time="1.48">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -460,7 +500,7 @@ Given user enters the following data........................................skip
 Then The user should see the "dateOfBirth" with the appropriate "Please match the requested format.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.8" time="1.443">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.8" time="1.502">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -475,7 +515,7 @@ Given user enters the following data........................................skip
 Then The user should see the "ssn" with the appropriate "Please match the requested format.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.9" time="1.451">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.9" time="1.468">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -490,7 +530,7 @@ Given user enters the following data........................................skip
 Then The user should see the "ssn" with the appropriate "Please match the requested format.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.10" time="1.437">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.10" time="1.467">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -505,7 +545,7 @@ Given user enters the following data........................................skip
 Then The user should see the "ssn" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.11" time="1.453">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.11" time="1.444">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -520,7 +560,7 @@ Given user enters the following data........................................skip
 Then The user should see the "email" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.12" time="1.449">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.12" time="1.488">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -535,7 +575,7 @@ Given user enters the following data........................................skip
 Then The user should see the "password" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.13" time="1.541">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.13" time="1.453">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -550,7 +590,7 @@ Given user enters the following data........................................skip
 Then The user should see the "confirmPassword" with the appropriate "Passwords Do Not Match".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.14" time="1.422">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.14" time="1.452">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -565,7 +605,7 @@ Given user enters the following data........................................skip
 Then The user should see the "confirmPassword" with the appropriate "Passwords Do Not Match".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.15" time="1.517">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.15" time="1.45">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -580,7 +620,7 @@ Given user enters the following data........................................skip
 Then The user should see the "address" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.16" time="1.448">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.16" time="1.462">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -595,7 +635,7 @@ Given user enters the following data........................................skip
 Then The user should see the "locality" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.17" time="1.455">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.17" time="1.439">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -610,7 +650,7 @@ Given user enters the following data........................................skip
 Then The user should see the "region" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.18" time="1.444">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.18" time="1.445">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -625,7 +665,7 @@ Given user enters the following data........................................skip
 Then The user should see the "postalCode" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.19" time="1.445">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.19" time="1.466">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -640,7 +680,7 @@ Given user enters the following data........................................skip
 Then The user should see the "country" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.20" time="1.46">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.20" time="1.435">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -655,7 +695,7 @@ Given user enters the following data........................................skip
 Then The user should see the "mobilePhone" with the appropriate "Please fill out this field.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.21" time="1.459">
+<testcase classname="Ability to Register a User" name="Negative test case, As an admin I want to make sure I cannot register without all proper data - Example #1.21" time="1.458">
 <failure type="java.lang.NullPointerException" message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null">
 <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
@@ -670,7 +710,7 @@ Given user enters the following data........................................skip
 Then The user should see the "termsCheckBox" with the appropriate "Please check this box if you want to proceed.".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Create a new savings account" name="Create a new individual savings account" time="6.939">
+<testcase classname="Create a new savings account" name="Create a new individual savings account" time="6.869">
 <failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;true&gt; but was: &lt;false&gt;">
 <![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -689,7 +729,7 @@ Then user should see green "Successfully created new Savings account named Steve
 And user should see the new checking account card with initial input data and.skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Profile page is correct" name="As a user, I can confirm my personal information is correct" time="0.715">
+<testcase classname="Profile page is correct" name="As a user, I can confirm my personal information is correct" time="0.734">
 <failure/>
 <system-out><![CDATA[
 Given User logs in with valid credentials...................................undefined
