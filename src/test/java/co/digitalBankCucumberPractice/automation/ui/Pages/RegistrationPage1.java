@@ -91,9 +91,12 @@ public class RegistrationPage1 extends BaseMenuPage {
         }
         if (registerData.get("gender") != null) {
             switch (registerData.get("gender")) {
-                case "M", "m" -> maleRadioButton.click();
-                case "F", "f" -> femaleRadioButton.click();
-                default -> throw new NoSuchElementException("Invalid gender chosen");
+                case "M":
+                case "m" : maleRadioButton.click();
+                case "F":
+                case "f": femaleRadioButton.click();
+                default:
+                    throw new NoSuchElementException("Invalid gender chosen");
             }
         }
         if (registerData.get("dateOfBirth") != null) {
