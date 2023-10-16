@@ -47,7 +47,7 @@ public class LoginSteps {
 
     @Then("verify user successfully logged in")
     public void verify_user_successfully_logged_in() {
-        String expectedUrl = "http://antony.mydevx.com/bank";
+        String expectedUrl = ConfigReader.getPropertiesValue("dBankHomePageURL");
         wait.until(ExpectedConditions.urlToBe(expectedUrl));
         assertEquals(expectedUrl, driver.getCurrentUrl());
     }

@@ -1,6 +1,6 @@
 Feature: ability to log in
 
-@negativeExamples
+  @negativeExamples
   Scenario Outline:Verify user cannot login with "<invalidUsername>" and "<invalidPassword>"
     Given user entered "<invalidUsername>" and "<invalidPassword>"
     Examples:
@@ -17,8 +17,9 @@ Feature: ability to log in
     Given user entered valid "<username>" and "<password>"
     Then verify user successfully logged in
     Examples:
-      | username        | password    |
-      | anton@email.com | Password123 |
+      | username           | password    |
+      | test123@email.com | Password123 |
+      | ella@email.com     | Password123 |
 
 
 

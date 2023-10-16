@@ -2,7 +2,7 @@ Feature: As a user i can deposit money into my checking account
 
   Scenario Outline: Deposit money into checking account
     Given User is on the login page
-    And User successfully logs in with credentials "test@test.com" and "Password123"
+    And User successfully logs in with credentials "test123@email.com" and "Password123"
     When User navigates to deposit page
     And user selects checking "TestAccount1 (Standard Checking)" from dropdown
     And User enters a "<deposit>" amount

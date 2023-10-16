@@ -3,6 +3,7 @@ package co.digitalBankCucumberPractice.automation.ui.steps;
 import co.digitalBankCucumberPractice.automation.ui.Pages.BaseMenuPage;
 import co.digitalBankCucumberPractice.automation.ui.Pages.LoginPage;
 import co.digitalBankCucumberPractice.automation.ui.Pages.Transactions_DepositPage;
+import co.digitalBankCucumberPractice.automation.ui.Utilities.ConfigReader;
 import co.digitalBankCucumberPractice.automation.ui.Utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -26,7 +27,7 @@ public class DepositIntoCheckingSteps {
     @Given("User successfully logs in with credentials {string} and {string}")
     public void user_successfully_logs_in_with_credentials_and(String username, String password) {
         lp.login(username, password);
-        assertEquals("https://dbank-qa.wedevx.co/bank/home", getDriver().getCurrentUrl());
+        assertEquals(ConfigReader.getPropertiesValue("dBankHomePageURL"), getDriver().getCurrentUrl());
     }
 
     @When("User navigates to deposit page")

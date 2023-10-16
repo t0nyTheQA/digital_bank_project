@@ -4,6 +4,7 @@ import co.digitalBankCucumberPractice.automation.ui.Models.NewSavingAccountData;
 import co.digitalBankCucumberPractice.automation.ui.Models.SavingAccountCard;
 import co.digitalBankCucumberPractice.automation.ui.Pages.CreateNewSavingsPage;
 import co.digitalBankCucumberPractice.automation.ui.Pages.LoginPage;
+import co.digitalBankCucumberPractice.automation.ui.Utilities.ConfigReader;
 import co.digitalBankCucumberPractice.automation.ui.Utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -24,7 +25,7 @@ public class CreateSavingAccountSteps {
 
     @Given("user is on the login page of dBank")
     public void user_is_on_the_login_page_of_d_bank() {
-        driver.get("https://dbank-qa.wedevx.co/bank/login");
+        driver.get(ConfigReader.getPropertiesValue("dBankLoginPageURL"));
     }
 
     @Given("user logs in with {string} and {string}")
@@ -36,7 +37,7 @@ public class CreateSavingAccountSteps {
     public void user_creates_a_new_savings_account_with_the_information(List<NewSavingAccountData> newSavingAccountData) throws InterruptedException {
         NewSavingAccountData expectedData = newSavingAccountData.get(0);
         newSavingsPage.navigateToNewSavingsPage();
-        assertEquals("https://dbank-qa.wedevx.co/bank/account/savings-add", driver.getCurrentUrl());
+        assertEquals(ConfigReader.getPropertiesValue("dBankNewSavingPageURL"), driver.getCurrentUrl());
         newSavingsPage.createNewSaving_IndividualAccount(expectedData.getAccountName(), String.valueOf(expectedData.getInitialDeposit()));
 
         assertTrue(newSavingsPage.getSavingsAccountTypeRadioButton().isSelected());

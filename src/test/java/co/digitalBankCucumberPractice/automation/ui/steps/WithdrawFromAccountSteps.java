@@ -35,9 +35,9 @@ public class WithdrawFromAccountSteps  {
         assertEquals(ConfigReader.getPropertiesValue("dbankWithdrawFunctionPageURL"), getDriver().getCurrentUrl());
     }
 
-    @When("user chooses an account and enters a withdraw amount and submits the withdrawal")
-    public void user_chooses_an_account_and_enters_a_withdraw_amount_and_submits_the_withdrawal(List<WithdrawInputData> withdrawInputData) {
-        withdrawPage.performWithdraw(withdrawInputData);
+    @When("user chooses an {string} and enters a {string} and submits the withdrawal")
+    public void userChoosesAnAndEntersAAndSubmitsTheWithdrawal(String accountName, String deposit) {
+    withdrawPage.performWithdraw(accountName, deposit);
     }
 
     @Then("user should see the new balance and amount withdrew in the transaction table")

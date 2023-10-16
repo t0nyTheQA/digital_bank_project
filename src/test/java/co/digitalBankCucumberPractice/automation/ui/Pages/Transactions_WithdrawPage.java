@@ -26,13 +26,10 @@ public class Transactions_WithdrawPage extends BaseMenuPage {
     @FindBy(xpath = "//div[@class = 'card-footer']/button[@type='reset']")
     WebElement resetButton;
 
-    public void performWithdraw(List<WithdrawInputData> withdrawInputDataList) {
-
-       WithdrawInputData withdrawData = withdrawInputDataList.get(0);
-
+    public void performWithdraw(String accountName, String deposit) {
         Select select = new Select(chooseAccountDropdown);
-        select.selectByVisibleText(withdrawData.getAccountName());
-        withdrawAmountTextBox.sendKeys(String.valueOf(withdrawData.getWithdrawAmount()));
+        select.selectByVisibleText(accountName);
+        withdrawAmountTextBox.sendKeys(String.valueOf(deposit));
         submitButton.click();
     }
 

@@ -2,18 +2,18 @@ Feature: Ability to Register a User
 
   Background:
 
-    Given the user with "ella@email.com" is not in database
+    Given the user with "ella5@email.com" is not in database
     Given user is on the dBank registration page
 
-
+@registration
   Scenario: successfully registering a new user, positive case
     When user enters the following data
       | title | firstName | lastName | gender | dateOfBirth | ssn         | email          | password    | confirmPassword | address    | locality | region | postalCode | country | mobilePhone  | termsCheckBox |
-      | Ms.   | Ella      | Chuprin  | F      | 01/01/2001  | 420-69-6969 | ella@email.com | Password123 | Password123     | 911 street | Sarasota | FL     | 34235      | USA     | 333-444-5555 | true          |
+      | Ms.   | Ella      | Chuprin  | F      | 01/01/2001  | 420-69-6961 | ella5@email.com | Password123 | Password123     | 911 street | Sarasota | FL     | 34235      | USA     | 333-444-5555 | true          |
     Then user should see a green "Registration Successful. Please Login." alert
     And the following user info should be saved in the database
       | title | firstName | lastName | gender | dateOfBirth | ssn         | email          | password    | confirmPassword | address    | locality | region | postalCode | country | mobilePhone  | termsCheckBox |
-      | Ms.   | Ella      | Chuprin  | F      | 01/01/2001  | 420-69-6969 | ella@email.com | Password123 | Password123     | 911 street | Sarasota | FL     | 34235      | USA     | 333-444-5555 | true          |
+      | Ms.   | Ella      | Chuprin  | F      | 01/01/2001  | 420-69-6961 | ella5@email.com | Password123 | Password123     | 911 street | Sarasota | FL     | 34235      | USA     | 333-444-5555 | true          |
 
   @negativeExamples
   Scenario Outline: Negative test case, As an admin I want to make sure I cannot register without all proper data

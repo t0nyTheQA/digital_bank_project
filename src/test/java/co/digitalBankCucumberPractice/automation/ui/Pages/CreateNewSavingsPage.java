@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static co.digitalBankCucumberPractice.automation.ui.Utilities.Driver.getDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -29,7 +30,8 @@ public class CreateNewSavingsPage extends BaseMenuPage {
        super(driver);
     }
 
-   ;
+
+
 
     @FindBy(id = "savings-menu")
     WebElement savingsSideButton;
@@ -67,12 +69,14 @@ public class CreateNewSavingsPage extends BaseMenuPage {
 
     //ACTION METHODS
     public void navigateToNewSavingsPage() {
-        savingsSideButton.click();
+      getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        savingsMenuButton.click();
         newSavingAccountButton.click();
     }
 
     public void createNewSaving_IndividualAccount(String accountName, String deposit) {
-
+        savingsAccountTypeRadioButton.click();
+        individualOwnershipRadio.click();
 
         accountNameTextbox.sendKeys(accountName);
         initialDepositTextbox.sendKeys(deposit);

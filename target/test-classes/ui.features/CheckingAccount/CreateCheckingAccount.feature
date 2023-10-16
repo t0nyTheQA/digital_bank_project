@@ -1,7 +1,7 @@
 Feature: Create a new checking account
 
   Scenario: Create a checking account
-    Given User is logged in credentials "anton@email.com" and "Password123"
+    Given User is logged in credentials "test123@email.com" and "Password123"
     And creates a new individual checking account with the following data
       | accountName           | accountType       | ownership  | deposit   |
       | Antons First Checking | Standard Checking | Individual | 100000.00 |

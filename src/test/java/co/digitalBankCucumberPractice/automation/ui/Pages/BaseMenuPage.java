@@ -69,8 +69,8 @@ public class BaseMenuPage extends BasePage {
     @FindBy(xpath = "//a[@class='user-avatar rounded-circle']")
     protected WebElement websiteInfoButton;
 
-    @FindBy(xpath = "//div[@class='user-area dropdown']//img")
-    protected WebElement profileDropDownMenuButton;
+    @FindBy(xpath = "//img[@alt='User Avatar']")
+    public WebElement profileDropDownMenuButton;
 
     //Profile drop down menu OPTIONS
     @FindBy(xpath = "//div[@class ='user-menu dropdown-menu show']/a[1]")
@@ -86,6 +86,10 @@ public class BaseMenuPage extends BasePage {
         depositButton.click();
     }
 
+    public void logout(){
+        profileDropDownMenuButton.click();
+        logoutButton.click();
+    }
 
 
 }
