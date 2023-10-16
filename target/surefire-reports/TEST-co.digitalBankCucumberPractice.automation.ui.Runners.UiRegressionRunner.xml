@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="co.digitalBankCucumberPractice.automation.ui.Runners.UiRegressionRunner" time="176.45" tests="38" errors="27" skipped="0" failures="10">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="co.digitalBankCucumberPractice.automation.ui.Runners.UiRegressionRunner" time="167.056" tests="38" errors="28" skipped="0" failures="10">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="webdriver.chrome.driver" value="C:\Users\anton\.cache\selenium\chromedriver\win64\117.0.5938.149\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\anton\AppData\Local\Temp\surefire773740016635306639\surefirebooter-20231015222953214_3.jar C:\Users\anton\AppData\Local\Temp\surefire773740016635306639 2023-10-15T22-29-52_903-jvmRun1 surefire-20231015222953214_1tmp surefire_0-20231015222953214_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\anton\AppData\Local\Temp\surefire3872479417829166050\surefirebooter-20231015225232654_3.jar C:\Users\anton\AppData\Local\Temp\surefire3872479417829166050 2023-10-15T22-52-32_468-jvmRun1 surefire-20231015225232654_1tmp surefire_0-20231015225232654_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="UiRegressionRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\anton\IdeaProjects\MentorshipCucumberProject\target\test-classes;C:\Users\anton\IdeaProjects\MentorshipCucumberProject\target\classes;C:\Users\anton\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\anton\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\anton\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\anton\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\anton\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\anton\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\anton\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\anton\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\anton\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\anton\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\anton\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\anton\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\anton\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\anton\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\anton\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\anton\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\anton\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\anton\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\anton\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\anton\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\anton\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\anton\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\anton\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\anton\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\anton\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\anton\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\anton\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\anton\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\anton\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\anton\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\anton\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\anton\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\anton\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\anton\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\anton\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\anton\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.2\webdrivermanager-5.5.2.jar;C:\Users\anton\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\anton\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\anton\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\anton\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\anton\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\anton\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\anton\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\anton\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\anton\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\anton\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\anton\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\anton\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\anton\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\anton\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\anton\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\anton\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\anton\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\anton\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\anton\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\anton\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\anton\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\anton\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\anton\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\anton\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\anton\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\anton\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\anton\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;C:\Users\anton\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\anton\AppData\Local\Temp\surefire773740016635306639\surefirebooter-20231015222953214_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\anton\AppData\Local\Temp\surefire3872479417829166050\surefirebooter-20231015225232654_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -60,25 +60,89 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="Create a checking account" classname="Create a new checking account" time="19.705">
+  <testcase name="Create a checking account" classname="Create a new checking account" time="15.781">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checking\-menu&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [eb75cb6baa917d544067bd03cd75f9a3, findElement {using=id, value=checking-menu}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eb75cb6baa917d544067bd03cd75f9a3" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#checking\-menu"}
+  (Session info: headless chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb75cb6baa917d544067bd03cd75f9a3, findElement {using=id, value=checking-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb75cb6baa917d544067bd03cd75f9a3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at co.digitalBankCucumberPractice.automation.ui.Pages.CreateNewCheckingPage.createNewCheckingAccount(CreateNewCheckingPage.java:50)
+	at co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.createsANewIndividualCheckingAccountWithTheFollowingData(CreateCheckingAccountSteps.java:38)
+	at ✽.creates a new individual checking account with the following data(classpath:ui.features/CheckingAccount/CreateCheckingAccount.feature:5)
+]]></error>
     <system-out><![CDATA[
 Scenario: Create a checking account                                                                                                         &amp#27;[90m# ui.features/CheckingAccount/CreateCheckingAccount.feature:3&amp#27;[0m
 Connection to Database completed.
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is logged in credentials &amp#27;[0m&amp#27;[32m&amp#27;[1m"anton@email.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m                                                                   &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_is_logged_in_credentials_and(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcreates a new individual checking account with the following data&amp#27;[0m                                                                     &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.createsANewIndividualCheckingAccountWithTheFollowingData(java.util.List<co.digitalBankCucumberPractice.automation.ui.Models.NewCheckingData>)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mcreates a new individual checking account with the following data&amp#27;[0m                                                                     &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.createsANewIndividualCheckingAccountWithTheFollowingData(java.util.List<co.digitalBankCucumberPractice.automation.ui.Models.NewCheckingData>)&amp#27;[0m
     | accountName           | accountType       | ownership  | deposit   |
     | Antons First Checking | Standard Checking | Individual | 100000.00 |
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should see a green confirmation message saying &amp#27;[0m&amp#27;[32m&amp#27;[1m"Successfully created new Standard Checking account named Antons First Checking"&amp#27;[0m &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_should_see_a_green_confirmation_message_saying(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should see the new checking account card&amp#27;[0m                                                                                         &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_should_see_the_new_checking_account_card(java.util.List<co.digitalBankCucumberPractice.automation.ui.Models.CheckingAccountCard>)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checking\-menu"}
+  (Session info: headless chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb75cb6baa917d544067bd03cd75f9a3, findElement {using=id, value=checking-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53925/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb75cb6baa917d544067bd03cd75f9a3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at co.digitalBankCucumberPractice.automation.ui.Pages.CreateNewCheckingPage.createNewCheckingAccount(CreateNewCheckingPage.java:50)
+	at co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.createsANewIndividualCheckingAccountWithTheFollowingData(CreateCheckingAccountSteps.java:38)
+	at ✽.creates a new individual checking account with the following data(classpath:ui.features/CheckingAccount/CreateCheckingAccount.feature:5)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see a green confirmation message saying &amp#27;[0m&amp#27;[36m&amp#27;[1m"Successfully created new Standard Checking account named Antons First Checking"&amp#27;[0m &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_should_see_a_green_confirmation_message_saying(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser should see the new checking account card&amp#27;[0m                                                                                         &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_should_see_the_new_checking_account_card(java.util.List<co.digitalBankCucumberPractice.automation.ui.Models.CheckingAccountCard>)&amp#27;[0m
     | accountName           | accountType       | ownership  | accountNumber | interestRate | balance   |
     | Antons First Checking | Standard Checking | Individual | 486131225     | 0.0%         | 100000.00 |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should see the following Transaction menu&amp#27;[0m                                                                                        &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_should_see_the_following_transaction_menu(java.util.List<co.digitalBankCucumberPractice.automation.ui.Models.CheckingTransactionMenu>)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser should see the following Transaction menu&amp#27;[0m                                                                                        &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.CreateCheckingAccountSteps.user_should_see_the_following_transaction_menu(java.util.List<co.digitalBankCucumberPractice.automation.ui.Models.CheckingTransactionMenu>)&amp#27;[0m
     | date             | category | description               | amount    | balance   |
     | 2023-09-07 21:19 | Income   | 845321935 (DPT) - Deposit | 100000.00 | 100000.00 |
 Connection to Database has been closed
+
+    Embedding screenshot [image/png 29737 bytes]
+
 ]]></system-out>
     <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -178,9 +242,9 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Oct 15, 2023 10:30:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:52:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
-Oct 15, 2023 10:30:15 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Oct 15, 2023 10:52:50 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
@@ -200,17 +264,17 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="15.075">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5096ba7d3d6f7e3254e9040583837577, findElement {using=id, value=withdraw-menu-item}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5096ba7d3d6f7e3254e9040583837577" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="Example #1.1" classname="Examples" time="11.684">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [71847f686bcb212101937ff7db0b6421, findElement {using=id, value=withdraw-menu-item}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53948/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 71847f686bcb212101937ff7db0b6421" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"#withdraw\-menu\-item"}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5096ba7d3d6f7e3254e9040583837577, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096ba7d3d6f7e3254e9040583837577
+Command: [71847f686bcb212101937ff7db0b6421, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53948/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71847f686bcb212101937ff7db0b6421
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -243,9 +307,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5096ba7d3d6f7e3254e9040583837577, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5096ba7d3d6f7e3254e9040583837577
+Command: [71847f686bcb212101937ff7db0b6421, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53948/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71847f686bcb212101937ff7db0b6421
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -276,7 +340,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -393,11 +457,11 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:30:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:52:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="5.564">
+  <testcase name="Example #1.1" classname="Examples" time="8.392">
     <failure message="expected: &lt;https://dbank-qa.wedevx.co/bank/home&gt; but was: &lt;http://antony.mydevx.com/bank/login?error&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <https://dbank-qa.wedevx.co/bank/home> but was: <http://antony.mydevx.com/bank/login?error>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -431,7 +495,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -548,11 +612,11 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:31:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:53:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="6.809">
+  <testcase name="Example #1.1" classname="Examples" time="4.884">
     <failure message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -578,7 +642,7 @@ Connection to Database completed.
 &amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -695,18 +759,18 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:31:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:54:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="11.463">
-    <error message="Expected condition failed: waiting for url to be &quot;http://antony.mydevx.com/bank&quot;. Current url: &quot;http://antony.mydevx.com/bank/login?error&quot; (tried for 3 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53235/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ff37f2b271fe856c463495175a8a678d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="Example #1.1" classname="Examples" time="10.746">
+    <error message="Expected condition failed: waiting for url to be &quot;http://antony.mydevx.com/bank&quot;. Current url: &quot;http://antony.mydevx.com/bank/login?error&quot; (tried for 3 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d7caf570e406860711c68837c64f635d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for url to be "http://antony.mydevx.com/bank". Current url: "http://antony.mydevx.com/bank/login?error" (tried for 3 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53235/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ff37f2b271fe856c463495175a8a678d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7caf570e406860711c68837c64f635d
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at co.digitalBankCucumberPractice.automation.ui.steps.LoginSteps.verify_user_successfully_logged_in(LoginSteps.java:51)
@@ -721,8 +785,8 @@ Connection to Database completed.
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53235/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ff37f2b271fe856c463495175a8a678d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7caf570e406860711c68837c64f635d
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at co.digitalBankCucumberPractice.automation.ui.steps.LoginSteps.verify_user_successfully_logged_in(LoginSteps.java:51)
@@ -733,7 +797,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -852,7 +916,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="2.239">
+  <testcase name="Example #1.1" classname="Examples" time="2.167">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -875,7 +939,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"title"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please select an item in the list."&amp#27;[0m                &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -992,9 +1056,9 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:32:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:54:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -1115,17 +1179,17 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="14.603">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6ff0edec05da2843afc08e960cf2af45, findElement {using=id, value=withdraw-menu-item}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6ff0edec05da2843afc08e960cf2af45" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="Example #1.2" classname="Examples" time="13.63">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ac1054e9b23ded8d995e76a46e48da83, findElement {using=id, value=withdraw-menu-item}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53975/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ac1054e9b23ded8d995e76a46e48da83" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"#withdraw\-menu\-item"}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ff0edec05da2843afc08e960cf2af45, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ff0edec05da2843afc08e960cf2af45
+Command: [ac1054e9b23ded8d995e76a46e48da83, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53975/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1054e9b23ded8d995e76a46e48da83
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -1158,9 +1222,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ff0edec05da2843afc08e960cf2af45, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ff0edec05da2843afc08e960cf2af45
+Command: [ac1054e9b23ded8d995e76a46e48da83, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53975/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1054e9b23ded8d995e76a46e48da83
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -1191,7 +1255,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -1308,11 +1372,11 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:30:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:53:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="11.775">
+  <testcase name="Example #1.2" classname="Examples" time="10.348">
     <failure message="expected: &lt;https://dbank-qa.wedevx.co/bank/home&gt; but was: &lt;http://antony.mydevx.com/bank/login?error&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <https://dbank-qa.wedevx.co/bank/home> but was: <http://antony.mydevx.com/bank/login?error>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -1346,7 +1410,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -1463,11 +1527,11 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:31:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:53:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="5.106">
+  <testcase name="Example #1.2" classname="Examples" time="4.266">
     <failure message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -1493,7 +1557,7 @@ Connection to Database completed.
 &amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -1612,7 +1676,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="1.456">
+  <testcase name="Example #1.2" classname="Examples" time="1.447">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -1635,7 +1699,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"firstName"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                   &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -1752,7 +1816,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -1873,17 +1937,17 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="15.75">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [214b2ae72f5a17972af3d79ac6d4971b, findElement {using=id, value=withdraw-menu-item}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 214b2ae72f5a17972af3d79ac6d4971b" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="Example #1.3" classname="Examples" time="15.279">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#withdraw\-menu\-item&quot;}&#10;  (Session info: headless chrome=117.0.5938.152)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e69e58971ff6db0a300c5a305829f7f4, findElement {using=id, value=withdraw-menu-item}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53996/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e69e58971ff6db0a300c5a305829f7f4" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"#withdraw\-menu\-item"}
   (Session info: headless chrome=117.0.5938.152)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [214b2ae72f5a17972af3d79ac6d4971b, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 214b2ae72f5a17972af3d79ac6d4971b
+Command: [e69e58971ff6db0a300c5a305829f7f4, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53996/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e69e58971ff6db0a300c5a305829f7f4
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -1916,9 +1980,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [214b2ae72f5a17972af3d79ac6d4971b, findElement {using=id, value=withdraw-menu-item}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53118/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 214b2ae72f5a17972af3d79ac6d4971b
+Command: [e69e58971ff6db0a300c5a305829f7f4, findElement {using=id, value=withdraw-menu-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\anton\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53996/devtoo..., se:cdpVersion: 117.0.5938.152, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e69e58971ff6db0a300c5a305829f7f4
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -1949,7 +2013,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2066,11 +2130,11 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:30:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:53:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="11.154">
+  <testcase name="Example #1.3" classname="Examples" time="11.202">
     <failure message="expected: &lt;https://dbank-qa.wedevx.co/bank/home&gt; but was: &lt;http://antony.mydevx.com/bank/login?error&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <https://dbank-qa.wedevx.co/bank/home> but was: <http://antony.mydevx.com/bank/login?error>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -2104,7 +2168,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 29737 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2221,11 +2285,11 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:31:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:53:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="4.544">
+  <testcase name="Example #1.3" classname="Examples" time="5.065">
     <failure message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -2251,7 +2315,7 @@ Connection to Database completed.
 &amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2370,7 +2434,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="1.462">
+  <testcase name="Example #1.3" classname="Examples" time="1.475">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -2393,7 +2457,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"lastName"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                    &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2510,7 +2574,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2631,7 +2695,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="4.883">
+  <testcase name="Example #1.4" classname="Examples" time="4.384">
     <failure message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -2657,7 +2721,7 @@ Connection to Database completed.
 &amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2776,7 +2840,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="1.442">
+  <testcase name="Example #1.4" classname="Examples" time="1.437">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -2799,7 +2863,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"gender"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please select one of these options."&amp#27;[0m              &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -2916,7 +2980,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3037,7 +3101,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.5" classname="Examples" time="4.832">
+  <testcase name="Example #1.5" classname="Examples" time="4.587">
     <failure message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -3063,7 +3127,7 @@ Connection to Database completed.
 &amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3182,7 +3246,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.5" classname="Examples" time="1.451">
+  <testcase name="Example #1.5" classname="Examples" time="1.456">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -3205,7 +3269,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"dateOfBirth"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please match the requested format."&amp#27;[0m          &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3322,7 +3386,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3443,7 +3507,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.6" classname="Examples" time="2.628">
+  <testcase name="Example #1.6" classname="Examples" time="4.355">
     <failure message="expected: &lt;http://antony.mydevx.com/bank&gt; but was: &lt;http://antony.mydevx.com/bank/login&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <http://antony.mydevx.com/bank> but was: <http://antony.mydevx.com/bank/login>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -3469,7 +3533,7 @@ Connection to Database completed.
 &amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3588,7 +3652,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.6" classname="Examples" time="1.45">
+  <testcase name="Example #1.6" classname="Examples" time="1.445">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -3611,7 +3675,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"dateOfBirth"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please match the requested format."&amp#27;[0m          &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3728,7 +3792,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3849,7 +3913,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.7" classname="Examples" time="1.499">
+  <testcase name="Example #1.7" classname="Examples" time="1.487">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -3872,7 +3936,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"dateOfBirth"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please match the requested format."&amp#27;[0m          &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -3989,7 +4053,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4110,7 +4174,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.8" classname="Examples" time="1.447">
+  <testcase name="Example #1.8" classname="Examples" time="1.504">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -4133,7 +4197,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"ssn"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please match the requested format."&amp#27;[0m                  &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4250,7 +4314,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4371,7 +4435,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.9" classname="Examples" time="1.456">
+  <testcase name="Example #1.9" classname="Examples" time="1.474">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -4394,7 +4458,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"ssn"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please match the requested format."&amp#27;[0m                  &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4511,7 +4575,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4632,7 +4696,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.10" classname="Examples" time="1.441">
+  <testcase name="Example #1.10" classname="Examples" time="1.47">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -4655,7 +4719,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"ssn"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                         &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4772,7 +4836,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -4893,7 +4957,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.11" classname="Examples" time="1.455">
+  <testcase name="Example #1.11" classname="Examples" time="1.45">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -4916,7 +4980,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"email"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                       &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5033,7 +5097,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5154,7 +5218,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.12" classname="Examples" time="1.452">
+  <testcase name="Example #1.12" classname="Examples" time="1.493">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -5177,7 +5241,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"password"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                    &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5294,7 +5358,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5415,7 +5479,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.13" classname="Examples" time="1.544">
+  <testcase name="Example #1.13" classname="Examples" time="1.457">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -5438,7 +5502,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"confirmPassword"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Passwords Do Not Match"&amp#27;[0m                  &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5555,7 +5619,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5676,7 +5740,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.14" classname="Examples" time="1.426">
+  <testcase name="Example #1.14" classname="Examples" time="1.463">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -5699,7 +5763,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"confirmPassword"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Passwords Do Not Match"&amp#27;[0m                  &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5816,7 +5880,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -5937,7 +6001,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.15" classname="Examples" time="1.521">
+  <testcase name="Example #1.15" classname="Examples" time="1.454">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -5960,7 +6024,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"address"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                     &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6077,7 +6141,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6198,7 +6262,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.16" classname="Examples" time="1.452">
+  <testcase name="Example #1.16" classname="Examples" time="1.464">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -6221,7 +6285,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"locality"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                    &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6338,7 +6402,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6459,7 +6523,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.17" classname="Examples" time="1.458">
+  <testcase name="Example #1.17" classname="Examples" time="1.443">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -6482,7 +6546,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"region"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                      &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6599,7 +6663,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6720,7 +6784,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.18" classname="Examples" time="1.45">
+  <testcase name="Example #1.18" classname="Examples" time="1.448">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -6743,7 +6807,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"postalCode"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                  &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6860,7 +6924,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -6981,7 +7045,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.19" classname="Examples" time="1.449">
+  <testcase name="Example #1.19" classname="Examples" time="1.469">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -7004,7 +7068,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"country"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                     &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7121,7 +7185,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7242,7 +7306,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.20" classname="Examples" time="1.464">
+  <testcase name="Example #1.20" classname="Examples" time="1.438">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -7265,7 +7329,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"mobilePhone"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please fill out this field."&amp#27;[0m                 &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7382,7 +7446,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7503,7 +7567,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.21" classname="Examples" time="1.463">
+  <testcase name="Example #1.21" classname="Examples" time="1.462">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -7526,7 +7590,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"termsCheckBox"&amp#27;[0m&amp#27;[36m with the appropriate &amp#27;[0m&amp#27;[36m&amp#27;[1m"Please check this box if you want to proceed."&amp#27;[0m &amp#27;[90m# co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserShouldSeeTheWithTheAppropriate(java.lang.String,java.lang.String)&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7643,7 +7707,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7764,7 +7828,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="successfully registering a new user, positive case" classname="Ability to Register a User" time="2.473">
+  <testcase name="successfully registering a new user, positive case" classname="Ability to Register a User" time="2.636">
     <error message="Cannot invoke &quot;java.sql.Connection.createStatement()&quot; because &quot;co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.connection" is null
 	at co.digitalBankCucumberPractice.automation.ui.Utilities.DBUtils.runSQLSelectQuery(DBUtils.java:39)
 	at co.digitalBankCucumberPractice.automation.ui.steps.RegisterNewUserSteps.theUserWithIsNotInDatabase(RegisterNewUserSteps.java:35)
@@ -7792,7 +7856,7 @@ Connection to Database has been closed
     Embedding screenshot [image/png 10592 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7889,9 +7953,9 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Oct 15, 2023 10:32:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 15, 2023 10:54:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 115
-java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -7992,7 +8056,7 @@ java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using pa
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="Create a new individual savings account" classname="Create a new savings account" time="6.943">
+  <testcase name="Create a new individual savings account" classname="Create a new savings account" time="6.872">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
@@ -8023,10 +8087,10 @@ Connection to Database completed.
     | 486131720     | 1.85         | 10000.00 | Savings     | Individual | Steves Savings1 |
 Connection to Database has been closed
 
-    Embedding screenshot [image/png 68095 bytes]
+    Embedding screenshot [image/png 68196 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
@@ -8125,7 +8189,7 @@ Connection to Database has been closed
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-err>
   </testcase>
-  <testcase name="As a user, I can confirm my personal information is correct" classname="Profile page is correct" time="0.756">
+  <testcase name="As a user, I can confirm my personal information is correct" classname="Profile page is correct" time="0.776">
     <error message="The step &apos;User logs in with valid credentials&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User logs in with valid credentials&quot;)&#10;public void user_logs_in_with_valid_credentials() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;User goes to My Profile page&quot;)&#10;public void user_goes_to_my_profile_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;User confirms registration information is correct&quot;)&#10;public void user_confirms_registration_information_is_correct() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'User logs in with valid credentials' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -8230,7 +8294,7 @@ Connection to Database completed.
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser confirms registration information is correct&amp#27;[0m
 Connection to Database has been closed
 ]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'add  '@'174.58.125.120' (using password: YES)
+    <system-err><![CDATA[java.sql.SQLException: Access denied for user 'antonytoropov '@'174.58.125.120' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
